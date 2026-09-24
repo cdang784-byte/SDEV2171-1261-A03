@@ -2,7 +2,7 @@
   "expo": {
     "name": "environment-check-app",
     "slug": "environment-check-app",
-    "scheme":"environmentcheckapp",
+    "scheme": "environmentcheckapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -19,6 +19,13 @@
     },
     "web": {
       "bundler": "metro"
-    }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-image",
+      "expo-router",
+      "expo-status-bar",
+      "expo-web-browser"
+    ]
   }
 }
